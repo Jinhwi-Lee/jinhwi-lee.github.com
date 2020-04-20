@@ -90,10 +90,10 @@ defaults:
       share: true
 
 # Site Author
-author: Jinhwi-Lee
+author:
   name:
   picture:
-  email: jinhooi7@gmail.com
+  email:
   twitter:
   links:
     - title:
