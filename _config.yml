@@ -17,10 +17,10 @@
 remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/default.css"
 locale: en-US
-title: "My Awesome Site"
-description: "It really is the best."
+title: "잡식공대생의 잡소리"
+description: "잡식공대생"
 baseurl: # the subpath of your site, e.g. "/blog"
-url: "https://jinhwi-lee.github.com"
+url: "https://jinhwi-lee.github.io"
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
@@ -90,10 +90,10 @@ defaults:
       share: true
 
 # Site Author
-author:
+author:Jinhwi-Lee
   name:
   picture:
-  email:
+  email:jinhooi7@gmail.com
   twitter:
   links:
     - title:
