@@ -13,6 +13,8 @@ GMM - Gaussian distribution이 여러개 혼합된 clustering 알고리즘
 현실에 존재하는 복잡한 형태의 확률 분포를 K개의 Gaussian distribution을 혼합하여 표현하고자 하는 것이 GMM의 기본 아이디어
 이때 K는 heuristic하게 정해줌
 
+https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile7.uf.tistory.com%2Fimage%2F99BC00385AC75F9A03072C
+
 EM - 보이지 않는 잠재 변수 (latent variable)에 의존하는 확률 모델에서 parameter들의 최대 우도 추정치 (maximum likelihood estimates of parameters)를 찾고자 하는 알고리즘
 expection 단계에서 잠재 변수의 기대치를 계산하고 maximization 단계에서 주어진 데이터와 기대치가 부여된 잠재 변수를 이용하여 모수들의 최대 우도 추정치를 계산함
 
