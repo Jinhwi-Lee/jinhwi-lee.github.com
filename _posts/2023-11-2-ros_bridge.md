@@ -17,10 +17,10 @@ echo "alias ros11='source /opt/ros/noetic/setup.bash'" >> ~/.bashrc
 echo "alias ros22='source /opt/ros/galactic/setup.bash'" >> ~/.bashrc
 
 실행 방법  
-terminal 1  
+terminal 1 (ros1)  
 $ ros11  
 $ roscore  
-terminal 2  
+terminal 2 (ros2)  
 $ ros11  
 $ ros22  
 $ ros2 run ros1_bridge dynamic_bridge --bridge-all-topics  
@@ -28,7 +28,7 @@ or
 $ ros2 run ros1_bridge dynamic_bridge
 
 간단 테스트  
-ros1 terminal
+ros1 terminal  
 $ rosrun rospy_tutorial talker  
 ros2 terminal  
 $ ros2 run demo_nodes_cpp listener  
