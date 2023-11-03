@@ -24,7 +24,7 @@ terminal 2 (ros2)
 $ ros11  
 $ ros22  
 $ ros2 run ros1_bridge dynamic_bridge --bridge-all-topics  
-or
+or  
 $ ros2 run ros1_bridge dynamic_bridge
 
 간단 테스트  
@@ -33,3 +33,9 @@ $ rosrun rospy_tutorial talker
 ros2 terminal  
 $ ros2 run demo_nodes_cpp listener  
 talker와 listener를 바꿔서도 해보자.
+
+동일 route내에서 ROS_DOMAIN_ID 만 맞으면 다른 pc ros2와도 간단히 연결 된다.  
+연결하고자하는 pc의 id 숫자를 모두 동일하게 해주자 (정확히는 각 터미널 마다)  
+$ export ROS_DOMAIN_ID=숫자  
+현재 ros 설정 상태 보는법  
+$ printenv | grep ROS
