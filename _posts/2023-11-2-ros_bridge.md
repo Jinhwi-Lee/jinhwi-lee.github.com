@@ -39,3 +39,7 @@ talker와 listener를 바꿔서도 해보자.
 $ export ROS_DOMAIN_ID=숫자  
 현재 ros 설정 상태 보는법  
 $ printenv | grep ROS
+
+아래 에러 메시지 나올시  
+Failed to connect to user  
+roscore 다시 켬
