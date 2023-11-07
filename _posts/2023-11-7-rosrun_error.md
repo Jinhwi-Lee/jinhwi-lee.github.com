@@ -8,4 +8,4 @@ tags:
 ---
 
 python file을 실행파일로 만들어 줘야함  
-chmod +x 파일이름.py
+$ chmod +x 파일이름.py
