@@ -41,5 +41,5 @@ $ export ROS_DOMAIN_ID=숫자
 $ printenv | grep ROS
 
 아래 에러 메시지 나올시  
-Failed to connect to user  
-roscore 다시 켬
+Failed to connect to user:port  
+roscore 끄고 다시 켬
