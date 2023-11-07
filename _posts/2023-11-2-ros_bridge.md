@@ -9,8 +9,8 @@ tags:
 
 사전에 ROS1과 ROS2가 설치되었다고 가정
 
-bridge package 설치 (ros2 version에 따라 설치해야함, 예제는 foxy)  
-$ sudo apt install ros-foxy-ros1-bridge
+bridge package 설치 (ros2 version에 따라 설치해야함, 예제는 galactic)  
+$ sudo apt install ros-galactic-ros1-bridge
 
 터미널마다 ros1을 쓸지 ros2를 쓸지 결정해야하므로 간단하게 alias로 저장해두자  
 echo "alias ros11='source /opt/ros/noetic/setup.bash'" >> ~/.bashrc  
