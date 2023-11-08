@@ -1,0 +1,15 @@
+---
+title: "ros2에서 커스텀 메시지와 서비스 만들 때 주의점"
+excerpt_separator: "<!--more-->"
+categories:
+  - Study
+tags:
+  - ros, ros2
+---
+
+ros2에서 Custom msg srv 만들때 주의할 것  
+"_"안됨, 첫글자는 무조건 대문자  
+예)  
+navi_waypoint_srv.srv (x)  
+naviwaypointsrv.srv (x)  
+Naviwaypointsrv.srv (o)  
